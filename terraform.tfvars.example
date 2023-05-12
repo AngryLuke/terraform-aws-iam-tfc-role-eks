@@ -1,0 +1,6 @@
+aws_region = 
+tfc_organization_name = 
+tfc_project_name = 
+tfc_workspace_name = 
+role_name = 
+policy_name = 
