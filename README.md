@@ -5,6 +5,7 @@ provider credentials feature.
 
 ### CLI-driven workflow
 Create a backend.tf file and add the following snippet of code
+```
 terraform {
   cloud {
     organization = ""
@@ -14,3 +15,4 @@ terraform {
     }
   }
 }
+```
