@@ -55,7 +55,9 @@ resource "aws_iam_policy" "tfc_policy" {
      "Effect": "Allow",
      "Action": [
        "emr-containers:*",
-       "eks:*"
+       "eks:*",
+       "iam:ListRoles",
+       "iam:GetRole"
      ],
      "Resource": "*"
    }
