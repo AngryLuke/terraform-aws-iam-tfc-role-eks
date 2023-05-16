@@ -57,7 +57,11 @@ resource "aws_iam_policy" "tfc_policy" {
        "emr-containers:*",
        "eks:*",
        "iam:ListRoles",
-       "iam:GetRole"
+       "iam:GetRole",
+       "iam:CreateRole",
+       "logs:CreateLogGroup",
+       "ec2:CreateSecurityGroup",
+       ""ec2:DeleteSecurityGroup",
      ],
      "Resource": "*"
    }
