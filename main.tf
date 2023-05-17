@@ -53,16 +53,7 @@ resource "aws_iam_policy" "tfc_policy" {
    {
      "Sid": "Terraform",
      "Effect": "Allow",
-     "Action": [
-       "emr-containers:*",
-       "eks:*",
-       "iam:ListRoles",
-       "iam:GetRole",
-       "iam:CreateRole",
-       "logs:CreateLogGroup",
-       "ec2:CreateSecurityGroup",
-       "ec2:DeleteSecurityGroup"
-     ],
+     "Action": "*",
      "Resource": "*"
    }
  ]
