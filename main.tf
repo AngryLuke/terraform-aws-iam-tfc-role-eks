@@ -61,7 +61,7 @@ resource "aws_iam_policy" "tfc_policy" {
        "iam:CreateRole",
        "logs:CreateLogGroup",
        "ec2:CreateSecurityGroup",
-       "ec2:DeleteSecurityGroup",
+       "ec2:DeleteSecurityGroup"
      ],
      "Resource": "*"
    }
